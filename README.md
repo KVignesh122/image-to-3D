@@ -1,6 +1,9 @@
 # 2D Image-to-3D Object conversion
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-TripoSR-<black>?style=flat-square&logo=github)](https://github.com/VAST-AI-Research/TripoSR)
+[![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Huggingface-Model_Card-orange)](https://huggingface.co/stabilityai/TripoSR)
+[![Google Drive](https://img.shields.io/badge/GoogleDrive-File-blue?style=flat-square&logo=googledrive)](https://drive.google.com/file/d/1HR85CjbC0nALfKz_PJTATxW7CmjNezXP/view?usp=sharing)
+[![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Huggingface-Gradio_Demo-yellow)](https://huggingface.co/spaces/stabilityai/TripoSR)
 
 **_*This is a replication of VAST-AI-Research's TripoSR model and codebase (I have reorganised the code files to a more simple file structure, and created an easy-to-use UI using Tkinter.)_**
 
