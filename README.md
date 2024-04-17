@@ -6,13 +6,23 @@
 
 The aim of this project is to take in a 2D image file and convert it into a 3D object of file type .glb.
 
+<img src="https://github.com/KVignesh122/image-to-3D/assets/55841532/82611cd0-450b-4b19-8858-37dde6822c6b" width="100" height="150" alt="image" />
+<img src="https://github.com/KVignesh122/image-to-3D/assets/55841532/c0b3658a-5adf-4bd2-bfc3-6ea037f6f4e1" width="100" height="150" alt="image" />
+<img src="https://github.com/KVignesh122/image-to-3D/assets/55841532/8fed4272-968e-4921-8a81-3ea02babf183" width="150" height="150" alt="pokemon2" />
+<img src="https://github.com/KVignesh122/image-to-3D/assets/55841532/622b4960-518f-442e-92be-30abdc91f2e6" width="200" height="150" alt="Cyberixen_gif" />
+<br>
+<img src="https://github.com/KVignesh122/image-to-3D/assets/55841532/d4c12913-96bc-4a0b-a173-e8bb7323039b" width="150" height="150" alt="unicorn" />
+<img src="https://github.com/KVignesh122/image-to-3D/assets/55841532/2dee2cbf-c027-4f90-b101-5c05c381d93c" width="200" height="150" alt="unicorn" />
+<img src="https://github.com/KVignesh122/image-to-3D/assets/55841532/ac608c96-bc0b-4d49-a0de-5a8327aa9edc" width="100" height="150" alt="image" />
+<img src="https://github.com/KVignesh122/image-to-3D/assets/55841532/ebc77ed4-16e8-44cb-9afb-c00fab7f757a" width="100" height="150" alt="image" />
+
 ## Technical Info
  
 The tool is built based on Stability.AI's TripoSR model [Advanced version of the Large Reconstruction Model], alongside various flavours of the u2net model for object segmentation and background removal.
  
 ### Enhancements made from base model:
 * Reoriented final object to match the same direction of input image.
-* Added functionality to convert clothing and only human beings present in image. [But the face of humans in 3D object is not great.]
+* Added functionality to convert clothing or only human beings present in image. [But the face of humans in 3D object is not great.]
 * Improved efficiency of background removal model.
 * Reduced output .glb filesize by 75% from original TripoSR model.
 * Made .glb fileformat the default output file type and removed .obj format. [.obj fileformat does not store color info, so 3D objects are just the mesh with no colors.]
@@ -20,8 +30,8 @@ The tool is built based on Stability.AI's TripoSR model [Advanced version of the
 ## How To Use
 ![image](https://github.com/KVignesh122/image-to-3D/assets/55841532/ee12db5f-2868-42fd-a9a5-0665afca2b31)
 
-1. Download converter.exe.
-2. Download model.ckpt and config.yaml files from [HuggingFace](https://huggingface.co/stabilityai/TripoSR/tree/main)
+1. Download converter.exe [here](https://drive.google.com/file/d/1HR85CjbC0nALfKz_PJTATxW7CmjNezXP/view?usp=sharing).
+2. Download model.ckpt and config.yaml files from [HuggingFace](https://huggingface.co/stabilityai/TripoSR/tree/main).
 3. Store all three files in the SAME LOCATION on your computer.
 4. Double click converter.exe to run the program. It will take roughly 2 mins to startup. Ignore all ONNX-related errors.
 5. When the program window pops up, upload desired image file, and select the type of object in the image [Normal, Human Beingm or Clothing] you want to convert into a 3D Object.
