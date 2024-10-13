@@ -1,3 +1,9 @@
+# ⚠️ Archived / No Longer Maintained
+
+This repository is not actively maintained as I no longer have access to a Windows/CUDA system to recompile these code on my end. 
+
+Feel free to fork it or use the code, but please note that **issues and pull requests will not be reviewed**.
+
 # 2D Image-to-3D Object conversion
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-TripoSR-<black>?style=flat-square&logo=github)](https://github.com/VAST-AI-Research/TripoSR)
