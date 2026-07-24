@@ -1,5 +1,5 @@
 omegaconf==2.3.0
-Pillow==10.1.0
+Pillow
 einops==0.7.0
 transformers==4.35.0
 trimesh==4.0.5
